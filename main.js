@@ -36,9 +36,5 @@ function draw(){
     drawScoreTexts();
 
     spawn();
-
-    window.requestAnimationFrame(draw);
 }
-
-
-draw();
+setInterval(draw, 1000 / 60);
